@@ -1,0 +1,15 @@
+package Repl_It0001;
+
+public class _00Quiz {
+    public static void main(String[] args) {
+
+        float f1 = (12_345.1 > 123_45.0)?12_456:124_56.02f;
+        float f2 = f1+1024;
+        System.out.println(f2);
+
+
+
+
+
+    }
+}
