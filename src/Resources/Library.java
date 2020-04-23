@@ -55,7 +55,7 @@ public class Library {
         return c;
     }
 
-    public static String uniqueString (String str) {
+    public static String unique(String str) {
 
         String unique = "";
         for (int i = 0; i < str.length(); i++) {
@@ -76,13 +76,13 @@ public class Library {
 
     }
 
-    public static String removingDupliactes (String str){
+    public static String removingDupliactes(String str) {
         String result = "";
-        for (int i = 0; i <str.length() ; i++) {
+        for (int i = 0; i < str.length(); i++) {
 
             char ch = str.charAt(i);
-            if(!result.contains(""+ ch)){
-                result+= ch;
+            if (!result.contains("" + ch)) {
+                result += ch;
 
             }
 
@@ -90,8 +90,68 @@ public class Library {
         return result;
 
 
-
     }
 
+    public static int minimumArray(int arr[]) {
+        int minimum = arr[0];
 
+
+        for (int each : arr) {
+            if (each < minimum) {
+                minimum = each;
+            }
+        }
+        return minimum;
+    }
+
+    public static double minumumArray(double[] arr) {
+        double minimum = arr[0];
+
+
+        for (double each : arr) {
+            if (each < minimum) {
+                minimum = each;
+            }
+        }
+        return minimum;
+
+    }
+    public static void uniqueArray ( int [] arr){
+
+        for(int each2 : arr ) {
+
+            int count = 0;
+
+            for (int each : arr) {
+
+                if (each == arr[each2]) {
+                    count++;
+                }
+            }
+
+            if (count == 1) {
+                System.out.println(each2);
+            }
+        }
+
+    }
+    public static void uniqueArray ( double [] arr){
+
+        for(double each2 : arr ) {
+
+            int count = 0;
+
+            for (double each : arr) {
+
+                if (each ==  each2) {
+                    count++;
+                }
+            }
+
+            if (count == 1) {
+                System.out.println(each2);
+            }
+        }
+
+    }
 }

@@ -5,7 +5,7 @@ public class _03_Return_Method_Frequency {
 
         String a= "ABBBCC";
 
-        System.out.println(Library.uniqueString(a));
+        System.out.println(Library.unique(a));
 
         System.out.println(Library.removingDupliactes(a));
     }
