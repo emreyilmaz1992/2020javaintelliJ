@@ -1,9 +1,8 @@
 package Repl_It0001;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class _00001Empty {
+public class _155_Methods_Fibonacci {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

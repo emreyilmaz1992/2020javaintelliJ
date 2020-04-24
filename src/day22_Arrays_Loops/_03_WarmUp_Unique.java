@@ -13,12 +13,12 @@ public class _03_WarmUp_Unique {
 			MUST use for each loop
          */
         String [] arr = {"A","B","A"};
-        int count = 0;
+
 
 
 
         for(String each2 :arr ) {
-
+            int count = 0;
             for (String each : arr) {
                 if (each.equals(each2)) {
                     count++;
