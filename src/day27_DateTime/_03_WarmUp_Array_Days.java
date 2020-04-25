@@ -20,7 +20,7 @@ public class _03_WarmUp_Array_Days {
             String name = friends[i];
             LocalDate BD = birthDays[i];
 
-            System.out.println(name +"'s birthdays is"+ BD);
+            System.out.println(name +"'s birthdays is "+ BD);
 
         }
 
