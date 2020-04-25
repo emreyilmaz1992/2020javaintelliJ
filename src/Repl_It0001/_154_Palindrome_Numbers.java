@@ -13,6 +13,8 @@ public class _154_Palindrome_Numbers {
 
 
 
+
+
     }
 
     public static void isPalindrome(int num){
@@ -26,7 +28,7 @@ public class _154_Palindrome_Numbers {
             result+= str.charAt(i);
 
         }
-        //System.out.println(result);
+       // System.out.println(result);
 
         if(result.equals(str)){
             System.out.println(b1);
