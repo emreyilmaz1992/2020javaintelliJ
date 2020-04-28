@@ -5,32 +5,12 @@ import java.util.Scanner;
 
 public class _00001Empty {
 
-    public static String[] reverse(String[] arr) {
-        int j = 0;
-        String[] arr2 = new String[arr.length];
-
-        for (int i = 0; i <arr.length ; i++) {
-
-            arr2[i] = arr[i];
-
-        }
-        for (int i = arr2.length-1; i >=0 ; i--) {
-
-            arr[j] = arr2[i];
-            j++;
-
-        }
-
-
-        return arr;
-    }
-
     public static void main(String[] args) {
 
-                        //   0        1      2
-            String [] arr = {"apple", "pear","banana"};
+        int[] nums = {1,3,5};
 
-                System.out.println(Arrays.toString(reverse(arr)));
+        System.out.println(isSort(nums));
+
 
 
 
@@ -39,4 +19,20 @@ public class _00001Empty {
 
 
    }
+
+   public static boolean isSort(int[] nums){
+
+        int[] arr2 = new int[nums.length];
+
+        for (int i = 0; i <arr2.length ; i++) {
+
+            arr2[i] = nums[i];
+        }
+        Arrays.sort(arr2);
+
+        boolean b1 = Arrays.equals(nums,arr2);
+
+
+        return b1;
+    }
 }
