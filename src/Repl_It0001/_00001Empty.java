@@ -5,34 +5,40 @@ import java.util.Scanner;
 
 public class _00001Empty {
 
+
     public static void main(String[] args) {
 
-        int[] nums = {1,3,5};
-
-        System.out.println(isSort(nums));
 
 
+        int freeBooks = 0;
+        Scanner scan = new Scanner(System.in);
+        boolean isPremiumCustomer = scan.nextBoolean();
+        int nbooksPurchased = scan.nextInt();
 
-
-
-
-
-
-   }
-
-   public static boolean isSort(int[] nums){
-
-        int[] arr2 = new int[nums.length];
-
-        for (int i = 0; i <arr2.length ; i++) {
-
-            arr2[i] = nums[i];
+        if(isPremiumCustomer ){
+            if(nbooksPurchased >= 5 && nbooksPurchased <8){
+                freeBooks+= 1;
+            }else if(nbooksPurchased >=8){
+                freeBooks += 2;
+            }
+        }else if(nbooksPurchased >= 7 && nbooksPurchased<12){
+            freeBooks+=1;
+        }else if(nbooksPurchased >= 12){
+            freeBooks+=2;
         }
-        Arrays.sort(arr2);
-
-        boolean b1 = Arrays.equals(nums,arr2);
+        System.out.println(freeBooks);
 
 
-        return b1;
+
+
+
+
+
+
+
+
+
     }
-}
+
+    }
+
