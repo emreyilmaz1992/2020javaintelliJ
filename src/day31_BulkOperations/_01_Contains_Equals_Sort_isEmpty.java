@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.stream.Collectors;
 
-public class _01_Contains_Equals_Sort {
+public class _01_Contains_Equals_Sort_isEmpty {
 
     public static void main(String[] args) {
 
@@ -52,6 +52,9 @@ public class _01_Contains_Equals_Sort {
         }
         list3 = list4;
         System.out.println(list3);
+
+        boolean b3 = list3.isEmpty();
+        System.out.println(b3); //false
 
 
 
