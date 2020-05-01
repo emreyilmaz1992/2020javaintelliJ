@@ -47,6 +47,9 @@ public class _05_add_set_remove {
                 boolean r1 = list4.remove(a2);
         System.out.println(r1);
 
+        list4.remove(1);
+        System.out.println(list4);
+
 
 
 
