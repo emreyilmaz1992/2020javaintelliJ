@@ -1,28 +1,29 @@
 package Repl_It0001;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
 
 public class _000001_Ecercise {
 
-    public static int isEven (int num1 ){
+    public static ArrayList<Integer>test(ArrayList<Integer> empty){
 
-        boolean valid = true;
+        ArrayList<Integer> ezo = new ArrayList<>();
 
-        if(num1 % 2 ==0){
-            System.out.println(valid);
-        }else{
-            System.out.println(!valid);
-        }
-        return num1;
+
+        return ezo;
     }
 
 
 
     public static void main(String[] args) {
+        ArrayList<Integer>list = new ArrayList<>();
+        list.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,1,3,2,2,2,2,2,2,3,3));
 
-     isEven(5);
+        System.out.println(test(list));
+
+
 
 
     }

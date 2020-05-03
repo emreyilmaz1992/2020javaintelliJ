@@ -28,7 +28,7 @@ public class _085 {
 
             }else if(countinue.equalsIgnoreCase("no")){
 
-                shoppingListReport = shoppingListReport.replace(shoppingListReport.substring(shoppingListReport.lastIndexOf(", ")),"");
+                shoppingListReport = shoppingListReport.substring(0,shoppingListReport.length()-2);
                 System.out.println(shoppingListReport);
                 System.out.println("Total Price: "+totalPrice);
                 break;
