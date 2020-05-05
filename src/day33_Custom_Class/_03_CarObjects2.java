@@ -1,5 +1,8 @@
 package day33_Custom_Class;
 
+
+// We don't need import since car and carObjects in the same package
+
 public class _03_CarObjects2 {
 
 
