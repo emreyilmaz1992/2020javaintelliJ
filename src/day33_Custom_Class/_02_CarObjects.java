@@ -21,6 +21,7 @@ public class _02_CarObjects {
 
         car1.start(); // BMW is started
         car1.drive(); // Driving BMW
+        car1.getCarInfo();
 
         System.out.println("======================================");
 

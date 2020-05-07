@@ -53,7 +53,7 @@ public class _04_Lambda_Expressions {
 
        // Predicate<Character> digits =  d -> d >= 48 && d <= 57; Ascii table
 
-        Predicate<Character> digits = c -> Character.isDigit(c);
+        Predicate<Character> digits = c -> !Character.isDigit(c);
 
         ArrayList<Character> chars = new ArrayList<>();
               chars.addAll(Arrays.asList('A','B','1','3','4','@','$','Z','5'));

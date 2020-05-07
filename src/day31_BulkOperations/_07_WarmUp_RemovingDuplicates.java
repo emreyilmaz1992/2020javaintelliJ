@@ -7,7 +7,7 @@ import java.util.Collections;
 public class _07_WarmUp_RemovingDuplicates {
     public static void main(String[] args) {
         ArrayList<String >list = new ArrayList<>();
-        list.addAll(Arrays.asList("A","B","C","A","D","D"));
+        list.addAll(Arrays.asList("A","B","B","C","A","D","D"));
 
         ArrayList<String> result = new ArrayList<>();
 

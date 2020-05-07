@@ -27,9 +27,12 @@ public class Cat {
 
 
     }
+
     public String toString(){
         return name+", breed is "+breed+", color is "+color+", age is "+age;
     }
+
+
 
 
 
