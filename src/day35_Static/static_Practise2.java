@@ -1,16 +1,28 @@
 package day35_Static;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
+public class static_Practise2 {
 
-public class static_Practise2 extends Application {
+    String brand;
+    String model;
+    static boolean hasWheels = true;
+
+    public void printBrand(){
+        System.out.println(brand);
+
+    }
+    public void printModel(){
+        System.out.println(model);
+
+    }
 
     public static void main(String[] args) {
-        launch(args);
+
+        System.out.println(hasWheels);
+
+
+
+
     }
 
-    @Override
-    public void start(Stage primaryStage) {
 
-    }
 }
