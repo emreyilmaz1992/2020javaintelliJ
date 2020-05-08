@@ -8,6 +8,9 @@ public class StudentObject {
         student1.name ="Muhtar";
         System.out.println(student1);
 
+        student1.setInfo("Emre",1234,3.45);
+        System.out.println(student1);
+
 
         Student student2 = new Student();
         student2.name = "Kuzzat";

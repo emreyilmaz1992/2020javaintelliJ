@@ -7,11 +7,4 @@ import java.util.Scanner;
 
 public class _000001_Ecercise {
 
-    public static void main(String[] args) {
-
-
-
-
-    }
-
 }

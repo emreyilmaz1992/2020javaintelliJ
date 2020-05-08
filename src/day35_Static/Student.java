@@ -30,9 +30,11 @@ public class Student {// for CybertekSchool
         System.out.println("School name is "+school);
     }
 
-    public String toString(){
-        return "Name: "+name+", School Name: "+school;
+    public String toString (){
+          return "Name: "+name+", School Name: "+school+" Gpa : "+gpa;
     }
+
+
 
 
 
