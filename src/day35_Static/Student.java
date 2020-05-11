@@ -15,15 +15,15 @@ public class Student {// for CybertekSchool
 
     String name;
     int id;
-    double gpa;
+    static  double gpa = 3.00;
 
     static String school = "Cybertek";
 
 
-    public  void setInfo(String name, int id, double gpa){ // if we are using any instance , the method should not be static
+    public  void setInfo(String name, int id){ // if we are using any instance , the method should not be static
         this.name = name;
         this.id = id;
-        this.gpa =gpa;
+       // this.gpa =gpa;
     }
 
     public static void printSchoolName(){

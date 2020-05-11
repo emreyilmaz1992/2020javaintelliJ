@@ -9,6 +9,7 @@ public class staticVariables {
     public static void main(String[] args) {
         int a1 = 100; // local variable
 
+        System.out.println(a3);
         staticVariables obj1 = new staticVariables();
         obj1.a2 = 1000;
 

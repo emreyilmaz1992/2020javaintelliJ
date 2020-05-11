@@ -96,6 +96,7 @@ public class Library {
         int minimum = arr[0];
 
 
+
         for (int each : arr) {
             if (each < minimum) {
                 minimum = each;
@@ -118,21 +119,21 @@ public class Library {
     }
     public static void uniqueArray ( int [] arr){
 
-        for(int each2 : arr ) {
+        for (int i = 0; i <arr.length ; i++) {
 
             int count = 0;
+            for (int j = 0; j <arr.length ; j++) {
 
-            for (int each : arr) {
-
-                if (each == arr[each2]) {
+                if(arr[i] == arr[j]){
                     count++;
                 }
+
+            }if(count ==1){
+                System.out.println(arr[i]);
             }
 
-            if (count == 1) {
-                System.out.println(each2);
-            }
         }
+
 
     }
     public static void uniqueArray ( double [] arr){

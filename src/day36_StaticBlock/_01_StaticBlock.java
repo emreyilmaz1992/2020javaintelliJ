@@ -17,7 +17,7 @@ public class _01_StaticBlock {
         System.out.println("Custom method Executed");
     }
     static{
-        System.out.println("Static block executed"); // static block gets execute first
+        System.out.println("Static block executed"); // static block gets executed first
     }
 }
 

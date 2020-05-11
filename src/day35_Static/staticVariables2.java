@@ -11,6 +11,7 @@ public class staticVariables2 {
         obj1.staticVariable = 400;
 
         staticVariables2 obj2 = new staticVariables2();
+       // obj2.insVariable = 299;
 
 
         System.out.println(   obj1.insVariable  ); // 300

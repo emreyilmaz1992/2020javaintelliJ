@@ -16,7 +16,7 @@ public class _04_StaticBlock {
 
     static {
         name2 = "emre";
-        num = 100;
+        num2 = 100;
         tester1 = new Tester();
         tester1.setTesterInfo("emre",123,"tester",122324);
     }
@@ -26,7 +26,8 @@ public class _04_StaticBlock {
 
     public static void main(String[] args) {
 
-        name = "Muhtar"; // if we assign them in the main method when we use the outside the method we don't get the result
+        name = "Muhtar"; // if you wanna use them outside the class assign them in static block. If you assign them in main method,
+                        // you can only use them in this class. In other class result will be null and 0
         num = 200;    // check _03_test class
 
 

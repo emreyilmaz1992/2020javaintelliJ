@@ -8,7 +8,7 @@ public class StudentObject {
         student1.name ="Muhtar";
         System.out.println(student1);
 
-        student1.setInfo("Emre",1234,3.45);
+    student1.setInfo("emre",1243);
         System.out.println(student1);
 
 
