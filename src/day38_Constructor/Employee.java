@@ -20,6 +20,7 @@ public class Employee {
     double salary;
 
     public Employee(String name){
+
         this.name = name;
     }
     public Employee(String name, String jobTitle){
