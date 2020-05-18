@@ -15,26 +15,23 @@ public class _00001Empty {
 
       public static void main(String[] args) {
 
-            Scanner scan = new Scanner(System.in);
-            timeConversion(scan.nextLine());
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
       }
-
-
-      public static void timeConversion(String s) {
-
-
-
-
-      }
-      }
-
-
-
+}
 
 
 
