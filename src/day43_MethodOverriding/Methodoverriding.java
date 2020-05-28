@@ -13,8 +13,8 @@ class Test{
 
 public class Methodoverriding extends Test{
     @Override
-    public void method(){
-        System.out.println("Oltu");
+    protected void method(){
+
     }
 
     public static void main(String[] args) {

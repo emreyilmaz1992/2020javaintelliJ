@@ -4,38 +4,23 @@ public class _166_Methods_merge_gear {
 
     public static String mergeStrings(String one, String two){
 
-        String result= "";
-        if(one.length() < two.length()) {
+        String result = "";
+         int max = Math.max(one.length(),two.length());
 
-            for (int i = 0; i < one.length(); i++) {
+        for (int i = 0; i <max ; i++) {
 
-                result += "" + one.charAt(i) + two.charAt(i);
-
+            if(i< one.length()){
+                result+= one.charAt(i);
             }
-            result += two.substring(one.length());
-           // return result;
-        }else if (one.length()>two.length()){
+             if(i< two.length()){
+                 result+= two.charAt(i);
+             }
 
-            for (int i = 0; i < two.length(); i++) {
-
-                result += "" + one.charAt(i) + two.charAt(i);
-
-            }
-            result += one.substring(two.length());
-           // return result;
-        }else if(one.length()== one.length()){
-
-            for (int i = 0; i <one.length() ; i++) {
-
-                result += "" + one.charAt(i) + two.charAt(i);
-
-            }
-
-          //  return result;
         }
-
-
         return result;
+
+
+
     }
     
     public static void main(String[] args) {
