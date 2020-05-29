@@ -12,31 +12,9 @@ import java.util.function.Predicate;
 
 public class _00001Empty {
 
-      public static int[] populate(int[] r) {
-
-
-            for (int i = 0; i <r.length ; i++) {
-
-                  r[i] = i+1;
-
-            }
-
-            return r;
-
-      }
 
 
       public static void main(String[] args){
-
-
-
-
-
-          //  System.out.println(phone1.numPictures);
-
-
-
-
 
 
 
