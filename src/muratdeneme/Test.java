@@ -1,36 +1,23 @@
 package muratdeneme;
 
-class A{
-    public A(){
-        System.out.println("A");
-    }
-}
-
-class B extends A{
-    public B(){
-        System.out.println("B ");
-    }
-}
-
-
-
-
-
-public class Test extends B {
-    public Test(){
-        System.out.println("C");
-    }
+public class Test {
+    static int a =50;
 
     public static void main(String[] args) {
 
-        B obj = new B();
+        a = 100;
 
+        try{
+            a = 200;
+        }catch (Exception e){
+            a = 300;
+        }finally {
+            a = 400;
+        }
+        System.out.println(a);
     }
 
-
-
-
-
+    static{
 
     }
-
+}
