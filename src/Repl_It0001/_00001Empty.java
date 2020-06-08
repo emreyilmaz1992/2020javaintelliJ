@@ -14,18 +14,24 @@ import java.util.function.Predicate;
 public class _00001Empty {
 
 
+      public static void main(String[] args) {
 
-      public static void main(String[] args){
+            int[]nums = {6,7,6,6};
+            String str = "yakpak";
+
+            for(int i =0; i<nums.length; i++){
 
 
+                  if(nums[i]==6 && (nums[i+1]==6 || nums[i+1]==7)){
 
-
-
+                  }
 
             }
+
+
+      }
+
 }
-
-
 
 
 
