@@ -7,7 +7,7 @@ public interface Interface2 {
 
 
 
-    public static final int a = 100; // since its final by the default we gotta initialized it rigt away
+    public static final int a = 100; // since its final by the default we gotta initialized it right away
     // when the letters are not shiny it means they were given by default
 
 

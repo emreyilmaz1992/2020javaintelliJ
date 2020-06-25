@@ -15,18 +15,28 @@ public class _00001Empty {
 
 
       public static void main(String[] args) {
+            String str = "aa11b33";
+            String result ="";
 
-            int[]nums = {6,7,6,6};
-            String str = "yakpak";
+            int b =0;
 
-            for(int i =0; i<nums.length; i++){
+            for(int i=0; i<str.length()-1; i++){
 
-
-                  if(nums[i]==6 && (nums[i+1]==6 || nums[i+1]==7)){
-
+                  if(Character.isDigit(str.charAt(i))){
+                        result+= str.charAt(i);
+                        if(Character.isLetter(str.charAt(i+1))){
+                              continue;
+                        }
                   }
 
+                   b = Integer.parseInt(result);
+
+
             }
+
+
+            System.out.println(b);
+
 
 
       }

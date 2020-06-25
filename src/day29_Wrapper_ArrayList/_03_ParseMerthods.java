@@ -7,6 +7,8 @@ public class _03_ParseMerthods {
 
         int a = Integer.parseInt(str); //123
 
+        System.out.println(a);
+
 
         System.out.println(str + 1); //text
         System.out.println(a+ 1);   //number

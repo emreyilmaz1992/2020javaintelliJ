@@ -15,7 +15,7 @@ public class CaloriMatic {
 
         double calBulgur =  0.830;   double calChicken = 1.72;  double calOat  = 3.750;  double calPotato = 0.93 ;  double calAlmondButter = 95;    double calBanana = 105;  double calBagel = 250;  double calProteinShake = 200; double calBerry = 0.57;   double calEggWhite = 0.2;
         double proBulgur =  0.031;   double proChicken = 0.21;  double proOat  = 0.125;  double proPotato = 0.025;  double proAlmondButter = 7;     double proBanana = 1.33; double proBagel = 10;   double proProteinShake = 30;  double proBerry = 0.007;  double proEggwhite = 2.6;
-        double crbBulgur =  0.190;   double crbChicken = 0.00;  double crbOat  = 0.675;  double crbPotato = 0.21 ;  double crbAlmodButter  = 7;     double crbBanana =  27;  double crbBagel = 49;   double crbProteinShake = 8;   double crbBerry = 0.14;   double crbEggwhitw = 0.2;
+        double crbBulgur =  0.190;   double crbChicken = 0.00;  double crbOat  = 0.675;  double crbPotato = 0.21 ;  double crbAlmodButter  = 7;     double crbBanana =  27;  double crbBagel = 49;   double crbProteinShake = 8;   double crbBerry = 0.14;   double crbEggwhite = 0.2;
         double fatBulgur =  0.002;   double fatChicken = 0.09;  double fatOat  = 0.075;  double fatPotato = 0.001;  double fatAlmondButter = 17;    double fatBanana = 0.4;  double fatBagel = 1.5;  double fatProteinShake = 4;   double fatBerry = 0.003;  double fatEggWhite = 0.1;
 
         double calSalmon = 0.208;    double calEgg = 78;        double calAlmond = 5.85 ;  double calPeanutButter = 95;   double calYogurt =  0.52; double calSpinach = 7;   double calMilk = 122;   double calSprout = 8;         double calOJ = 110;       double calNonYogurt = 90;
@@ -115,7 +115,7 @@ public class CaloriMatic {
                 else if (food.equalsIgnoreCase("Egg white")) {
                     totalCaL += (calEggWhite * gram);
                     totalPro += (proEggwhite * gram);
-                    totalCarb += (crbEggwhitw * gram);
+                    totalCarb += (crbEggwhite * gram);
                     totalFat += (fatEgg * gram);
                     //break;
                 }
