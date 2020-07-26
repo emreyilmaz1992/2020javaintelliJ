@@ -1,6 +1,7 @@
 package day30_ArrayList;
 
-import java.util.ArrayList;
+import java.util.*;
+//import java.util.ArrayList;
 
 public class _05_add_set_remove {
     public static void main(String[] args) {

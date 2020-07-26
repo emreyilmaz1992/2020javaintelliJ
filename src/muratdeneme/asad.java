@@ -1,30 +1,38 @@
 package muratdeneme;
 
-public class asad {
-    public static String frequencyOfCharcters(String str){// "!gk4ll5 b"
 
-        String result="";
+class o{
 
-        for (int i=0;i<str.length();i++){
-            char k=str.charAt(i);
-            int count=0;
-            for (int l=0;l<str.length();l++){
-                char o=str.charAt(l);
+  String name;
 
-                if (k==o){
-                    count++;
-                }
-            }
-            if(!result.contains(k+"")){
-                result+=""+k+""+count+" ";
-            }
-        }
+  public o(String name){
 
-        return result;
+      this.name = name;
+  }
 
+    @Override
+    public String toString() {
+        return "o{" +
+                "name='" + name + '\'' +
+                '}';
     }
+}
+
+
+ class asad {
 
     public static void main(String[] args) {
-        System.out.println(frequencyOfCharcters(" mmm     uuuu     ttt      uu    ooo,,,,   ..."));
+
+
+
+
+
+
+
+
+
+
     }
+
+
 }

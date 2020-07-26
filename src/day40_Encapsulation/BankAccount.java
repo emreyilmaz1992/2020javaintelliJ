@@ -19,7 +19,7 @@ WarmUp tasks:
  */
 public class BankAccount {
 
-    public static String bankName = "Bank of America";
+    public final static String bankName = "Bank of America";
     public String firstName;
     public String lastName;
     private String accountHolder;
@@ -36,18 +36,22 @@ public class BankAccount {
     }
 
     public String getAccountHolder() {
+
         return accountHolder;
     }
 
     public void setAccountHolder(String firstName, String lastName) {
+
         accountHolder = firstName + " " + lastName;
     }
 
     public long getAccountNumber() {
+
         return accountNumber;
     }
 
     public void setAccountNumber(long accountNumber) {
+
         this.accountNumber = accountNumber;
     }
 

@@ -16,7 +16,7 @@ public class _06_Multi_CatchBlock {
         } catch (ArithmeticException e){
             System.out.println("Arithmetic Exception");
          }catch(IndexOutOfBoundsException e){
-           System.out.println("Index Out of Bound"); // Parent exception cannot come before parent exception, If we put Runtime before indexBound we get error
+           System.out.println("Index Out of Bound"); // Parent exception cannot come before child exception, If we put Runtime before indexBound we get error
        }
        catch (RuntimeException e){
            System.out.println("Runtime");

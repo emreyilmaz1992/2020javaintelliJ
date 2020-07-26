@@ -17,6 +17,7 @@ abstract class A{
 
 public class Abstraction extends A implements I,I2 {
 
+    @Override
    public void method1(){
 
    }
@@ -33,6 +34,7 @@ public class Abstraction extends A implements I,I2 {
 
     @Override
     public int method3() {
+
         return 0;
     }
 }

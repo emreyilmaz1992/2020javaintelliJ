@@ -8,6 +8,8 @@ public class _02_Auto_Unboxing {
 
 
 
+
+
         Byte byte1 = 98;
         short short1 = byte1;  //unboxing
         byte b2 = byte1;       //unboxing

@@ -15,5 +15,18 @@ public class charPractice {
 
         System.out.println((aa+bb+cc)+ " is equal to "+ dd);
 
+       char a = 123;
+
+        System.out.println(a);
+
+        int b = 10;
+        b = 20;
+        System.out.println(b);
+
+        final int c = 20;
+      //  c = 10;
+
+
+
     }
 }

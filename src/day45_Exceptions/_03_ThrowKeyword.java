@@ -9,6 +9,7 @@ public class _03_ThrowKeyword {
 
        NoSuchElementException obj = new NoSuchElementException();
 
+
       // throw  new NoSuchElementException();
 
     /*

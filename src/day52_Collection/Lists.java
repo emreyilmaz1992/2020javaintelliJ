@@ -6,7 +6,11 @@ public class Lists {
     public static void main(String[] args) {
 
 
-        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list1 = new ArrayList<>(); // this is has to be arrayList in order to create object.cuz list is interface.
+        //list1 here is the object
+
+      //  List<Integer>list20 = new Lis
+
         list1.add(1);
 
         List<Integer> list2 = new LinkedList<>();

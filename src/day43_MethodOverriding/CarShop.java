@@ -7,11 +7,16 @@ public class CarShop {
 
     Tesla tesla = new Tesla();
     tesla.start();
+        System.out.println("===========================");
 
         Honda honda = new Honda();
         honda.start();
+        System.out.println("===========================");
+
 
         Jeep jeep = new Jeep();
         jeep.start();
+        System.out.println("===========================");
+
     }
 }

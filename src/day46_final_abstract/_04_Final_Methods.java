@@ -1,6 +1,6 @@
 package day46_final_abstract;
 
-public class _04_Final_Methods {
+public  class _04_Final_Methods {
 
     public final void method1(){ //  means cannot be override
 

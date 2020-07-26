@@ -1,5 +1,4 @@
 package day48_abstraction;
-
 public interface Interface2 {
 
 

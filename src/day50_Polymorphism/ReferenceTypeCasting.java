@@ -8,7 +8,7 @@ public class ReferenceTypeCasting {
 
         Dog dog = new Dog("A",3,"f");
 
-        Animal animal1 = (Animal)dog; // up casting, done implicitly
+        Animal animal1 = dog; // up casting, done implicitly
 
         Cat cat = new Cat("r","female",2);
 

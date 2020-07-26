@@ -10,7 +10,7 @@ public class _07_ExceptionPractise {
             System.out.println("Hola");
             System.out.println(9 / 0);
 
-        } catch (Exception e){
+        } catch (ArithmeticException e){
 
         }
         System.out.println("Cybertek");

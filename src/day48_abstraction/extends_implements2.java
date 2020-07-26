@@ -6,7 +6,11 @@ interface P{
 
 interface Q extends P {
 
-    int method2();
+     int  method2();
+}
+
+interface E{
+    String method6();
 }
 
 abstract class R{
@@ -15,12 +19,30 @@ abstract class R{
 }
 
 
+class C implements Q ,E{
+
+    @Override
+    public void method1() {
+
+    }
+
+    @Override
+    public int method2() {
+        return 0;
+    }
+
+    public String method6(){
+        return null;
+    }
+
+
+}
 
 
 public class extends_implements2 extends R implements Q , P{  // we can use both same time , but extends has to be first written
     public static void main(String[] args) {
 
-      //  R obj = new R();  not concrete
+      //  E obj = new E();  not concrete
 
 
 

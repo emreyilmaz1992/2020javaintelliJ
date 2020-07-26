@@ -1,10 +1,21 @@
 package muratdeneme;
 
-public class aaaa {
-    private int num1=10;
-    private int num2=20;
+import java.util.ArrayList;
+import java.util.Arrays;
 
-    public String toString(){
-        return num1+" "+num2;
+public class aaaa {
+    public static void main(String[] args) {
+
+        ArrayList<Integer>list = new ArrayList<>(Arrays.asList(1,1,2,2,3,3,4,4,5,5));
+
+        for (int i = 0; i <list.size() ; i++) {
+
+
+            list.removeIf(p->p<4);
+
+        }
+
+
     }
+
 }

@@ -8,11 +8,13 @@ interface I1{
 interface I2 extends I1{ // since they same type so we use extends rather than implement
     void method2(); // 2 abstract methods
 
+
 }
 
 
 abstract class AC implements I2{ // we use implements here, cuz they both different type. One is abstract other is interface
     abstract void method3(); // 3 abstract methods
+
 }
 
 

@@ -6,6 +6,8 @@ interface Animal{
 
 class Dog implements Animal{  // we cant create object from abstract class
 
+
+
 }
 
 class Cat implements Animal{
@@ -27,6 +29,8 @@ public class Polymorphism_Intro {
 
         Dog obj5 = new Dog();
         Cat obj6 = new Cat();
+
+
 
         Robot obj7  = new Robot();
 

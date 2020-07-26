@@ -12,5 +12,5 @@ public class _03_Credentials {
     public String getUsername() {
         return username;
     }
-
+    // Since we cannot reassign , so we cannot use setter method for this, but we can use getter method for see purpose only.
 }

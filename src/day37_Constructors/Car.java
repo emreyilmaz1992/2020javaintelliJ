@@ -11,6 +11,7 @@ public class Car {
         this.model = model;
         this.year = year;
         this.price = price;
+
     }
 
 

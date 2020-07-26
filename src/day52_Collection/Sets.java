@@ -16,7 +16,6 @@ public class Sets {
         names.add("Kerim");
         System.out.println(names);// does not accept duplicates also list is not in order
 
-
         String[]arr = {"A","A","C","B","A"};//
 
         LinkedHashSet<String > set1 = new LinkedHashSet<>(Arrays.asList(arr));

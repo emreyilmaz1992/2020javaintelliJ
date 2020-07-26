@@ -14,11 +14,13 @@ package day42_Inheritance;
 
   public class SuperKeyword extends A {
 
-      int a = 200;
+     // int a = 200;
+
 
       public SuperKeyword(){
           super(2.3); //100
           System.out.println(super.a); //100
+          
 
       }
 

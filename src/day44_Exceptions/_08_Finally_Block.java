@@ -5,13 +5,14 @@ public class _08_Finally_Block {
 
         try {
             System.out.println(9 / 0);
-        }catch (Exception e){
-            System.out.println("Catch Block");
+            System.out.println("kk");
+
         }finally {
-            System.out.println("Finally"); // this line will be executed no matter what even the error code is false
+            System.out.println("Finally"); // this line will be executed no matter what even the error code is false, we may skip catch here
         }
+        System.out.println("hello world");
 
-
+        System.out.println(9/0);
 
     }
 }

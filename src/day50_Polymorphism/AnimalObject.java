@@ -15,6 +15,7 @@ public class AnimalObject {
         System.out.println(obj2.gender);
         System.out.println(obj2.age);
 
+
         obj2.eat();
         obj2.methodA();
 

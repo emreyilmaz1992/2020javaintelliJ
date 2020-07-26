@@ -6,5 +6,6 @@ public class PhoneObjects {
 
         iPhone phone1 = new iPhone("Iphone X",1000,"5.8");
         System.out.println(phone1);
+        phone1.calling(12392981);
     }
 }

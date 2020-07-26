@@ -1,6 +1,7 @@
 package day43_MethodOverriding;
 
 class Test{
+
      protected void method(){
 
         System.out.println("Kehribar");

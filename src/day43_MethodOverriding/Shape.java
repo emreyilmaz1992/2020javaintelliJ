@@ -17,6 +17,7 @@ public class Shape {
 
     public void calculateArea(){
         area = 0;
+
         System.out.println("Area of the shape: "+area);
 
     }

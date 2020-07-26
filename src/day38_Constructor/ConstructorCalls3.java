@@ -6,7 +6,7 @@ public class ConstructorCalls3 {
 
     public ConstructorCalls3(){
         this(9); // int argument
-        System.out.println("defaault");
+        System.out.println("default");
     }
 
     public ConstructorCalls3(int a){
@@ -14,14 +14,22 @@ public class ConstructorCalls3 {
         System.out.println("Int Argument");
     }
 
+
+
     public  ConstructorCalls3(String str){
 
         this();
+        System.out.println("String argument");
     }
 
     public static void main(String[] args) {
 
         ConstructorCalls3 obj1 = new ConstructorCalls3();
+
+        ConstructorCalls3 obj2 = new ConstructorCalls3(10);
+
+        ConstructorCalls3 obj3 = new ConstructorCalls3("emre");
+
 
 
 
