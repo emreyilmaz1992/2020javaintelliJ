@@ -1,5 +1,6 @@
 package day54_Maps;
 
+import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -22,6 +23,7 @@ public class _04_Map_setEntry {
 
 
         }
+        Hashtable<String, Double> akk = new Hashtable<>();
 
 
 

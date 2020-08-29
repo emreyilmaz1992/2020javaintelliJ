@@ -31,7 +31,7 @@ Warm up task:
 
         }
 
-       // System.out.println(nonDup); //ABC
+       System.out.println(nonDup); //ABC
 
 
 
