@@ -18,7 +18,7 @@ public class ConstructorCalls3 {
 
     public  ConstructorCalls3(String str){
 
-        this();
+        this(9);
         System.out.println("String argument");
     }
 

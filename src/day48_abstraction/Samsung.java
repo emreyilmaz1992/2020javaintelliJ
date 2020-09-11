@@ -14,7 +14,7 @@ public class Samsung extends Phone {
 
     @Override
     public void calling(long phoneNumber) {
-        System.out.println("Samsung is calling "+phoneNumber);
+
     }
 
     @Override
