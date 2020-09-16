@@ -21,6 +21,20 @@ public class Person implements Comparable<Person> {
                 +name+", age="+age+ "]";
     }
 
+    @Override // we could also generate hashcode and equals method without writing it by ourself
+    public int hashCode() {
+        return 1000;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Person p = (Person) obj;
+        if(this.name.equals(p.name )&& this.age == p.age){
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public int compareTo(Person o) {
 

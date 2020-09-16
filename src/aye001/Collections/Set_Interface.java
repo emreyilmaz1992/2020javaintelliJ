@@ -27,6 +27,8 @@ public class Set_Interface {
         longSet.addAll(Arrays.asList(2L,3L,4L,4L,4L));
         System.out.println(longSet);
 
+
+
         longSet.add(null);
         System.out.println(longSet);
 
