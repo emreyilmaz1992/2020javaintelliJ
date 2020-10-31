@@ -16,8 +16,11 @@ public class Sorted_Map {
         scoreMap.put("JayJay",null);
         System.out.println(scoreMap);
 
+
         System.out.println(scoreMap.firstKey());
         System.out.println(scoreMap.lastKey());
+        //System.out.println(scoreMap.get(1));
+
 
                 // --- view ---//
 

@@ -1,5 +1,7 @@
 package Recaps;
 
+import com.sun.xml.internal.fastinfoset.util.QualifiedNameArray;
+
 import java.util.*;
 
 
@@ -14,6 +16,7 @@ public class Arrays_BinarySearch {
 
         System.out.println(Arrays.binarySearch(targetArrrayObject,targetItemToSearch));
         // returns the index value of the 4
+
 
 
 

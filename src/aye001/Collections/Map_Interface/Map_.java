@@ -1,5 +1,7 @@
 package aye001.Collections.Map_Interface;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -43,6 +45,7 @@ public class Map_ {
         System.out.println("removing key: Adam "+ scoreMap.remove("Adam"));
         System.out.println(scoreMap);
 
+
         //bulk operation
         // void putAll(Map<? extends K, ? extends V>m);
         Map<String ,Integer> scoreMap2 = new HashMap<>();
@@ -52,7 +55,7 @@ public class Map_ {
         System.out.println("scoreMap2 = " + scoreMap2);
 
         scoreMap.putAll(scoreMap2);
-        System.out.println("scoreMap = " + scoreMap);
+        System.out.println("scoreMap  = " + scoreMap);
         // no insertion order for hashMap
 
         //void clear - deleting everything
@@ -62,6 +65,7 @@ public class Map_ {
         scoreMap.putIfAbsent("Mary",100);
         System.out.println("scoreMap = " + scoreMap);
         //it's added if the key does not exist
+
 
         // V getOrDefault(object key, V defaultValue)
         System.out.println("Get xavi's score "+ scoreMap.get("Xavi"));
@@ -76,22 +80,48 @@ public class Map_ {
         System.out.println("Replace Mary score from 30 to 100 "+ scoreMap.replace("Mary",30,100));
         System.out.println("scoreMap = " + scoreMap);
 
+
         //boolean ( key, V new value)
-        System.out.println("Replace Mary's score "+ scoreMap.replace("Mary", 45));
+        System.out.println("Replace Mary's score :"+ scoreMap.replace("Mary", 45));
         System.out.println("scoreMap = " + scoreMap);
 
 
 
-        
+        Map<String, String> map = new HashMap<>();
+        map.put("a","");
+        map.put("b","");
+
+        System.out.println(map.get("a") == map.get("b"));
+        System.out.println(map.get("a").equals(map.get("b")));
+
+        if(!map.containsKey("a"));
+
+        map.get("a").length();
+
+        ArrayList<String>as = new ArrayList<>(Arrays.asList("asdf"));
+
+        System.out.println(as);
+
+        as.get(0).length();
 
 
 
+        Map<String,Integer> map2 = new HashMap<>();
 
 
+        map2.put("emre",20);
+        map2.put("hasan",10);
+
+        System.out.println(map2);
+
+        map2.put("emre",map2.get("emre")+1);
+        System.out.println(map2);
 
 
 
 
 
     }
+
+
 }

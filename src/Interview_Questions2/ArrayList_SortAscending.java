@@ -13,7 +13,7 @@ public class ArrayList_SortAscending {
 
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(100,12,33,14,54,16,7,8,9,101,200,300));
 
-        Collections.sort(list2, Collections.reverseOrder());
+
 
 
 

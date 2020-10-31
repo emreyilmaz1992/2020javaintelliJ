@@ -31,6 +31,7 @@ public class Map_vieW {
         // Collection<V> values();
         Collection<Integer> allScores = scoreMap.values();
         System.out.println(allScores);
+
         // we can't use keySet for value . we  can use Collection
 
         for (String eachKey : keys){
@@ -55,7 +56,6 @@ public class Map_vieW {
         System.out.println(scoreMap);
 
         // since the map is not iterable , that's how we make it do iteration
-
 
 
 

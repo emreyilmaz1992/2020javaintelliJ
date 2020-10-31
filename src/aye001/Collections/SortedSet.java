@@ -7,6 +7,11 @@ public class SortedSet {
 
 
         java.util.SortedSet<Integer> longTreeSet = new TreeSet<>();
+        Set<Integer> wer = new LinkedHashSet<>(Arrays.asList(1,2,3,4,5,5,4,3,2,1));
+        System.out.println(wer.size());
+        System.out.println("wer.stream().findFirst() = " + wer.stream().findFirst());
+
+
 
         longTreeSet.add(7);
         longTreeSet.add(8);
@@ -17,23 +22,27 @@ public class SortedSet {
 
         System.out.println(longTreeSet);
         System.out.println(longTreeSet.stream().findFirst());
+        System.out.println(longTreeSet.size());
+
         // System.out.println(longTreeSet.stream());
 
         // No duplication and sorted
 
         int[] arr= {1,2,3,3,4,4,5};
 
-        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,2,3,3,4,4,5));
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,2,3,3,4,4,5,6));
+
+
 
         java.util.SortedSet<Integer> uniqueSorted = new TreeSet<>(list);
         // here must be SortedSet. otherwise we cannot apply the methods below
         System.out.println(uniqueSorted);
 
-        System.out.println(uniqueSorted.stream().count());
+        System.out.println("count"+uniqueSorted.stream().count());
         System.out.println(uniqueSorted.first());
         System.out.println(uniqueSorted.last());
 
-        System.out.println(uniqueSorted.subSet(1,4)); // returns everything before 4
+        System.out.println("subset"+uniqueSorted.subSet(3,6)); // returns everything before 4
 
         System.out.println(uniqueSorted.tailSet(2)); //returns everything after  2 . 2 included
 

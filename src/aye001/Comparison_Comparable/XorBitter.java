@@ -1,4 +1,4 @@
-package aye001.Math;
+package aye001.Comparison_Comparable;
 
 import com.sun.tools.corba.se.idl.constExpr.Xor;
 
@@ -28,7 +28,7 @@ public class XorBitter {
         String b = new String("dog");
         String c = "dog";
         String d = "dog";
-
+        System.out.println("============");
         System.out.println(a.equals(b));
         System.out.println(a == b);
         System.out.println(a.equals(c));

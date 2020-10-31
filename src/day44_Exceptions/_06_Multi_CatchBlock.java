@@ -1,8 +1,11 @@
 package day44_Exceptions;
 
+import java.sql.SQLClientInfoException;
 import java.util.NoSuchElementException;
 
 public class _06_Multi_CatchBlock {
+
+
     public static void main(String[] args) {
 
 
@@ -28,5 +31,14 @@ public class _06_Multi_CatchBlock {
         // Arithmetic and runtime can handle the problem, however there will be only one result, so first come first serve principle apply here
 
 
+        long c = 100;
+
+        int d = (int)c;
+
+
     }
+
 }
+
+
+
