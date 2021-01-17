@@ -12,33 +12,27 @@ public class String_SameLetter {
 
         System.out.println(sameLetters(a,b));
 
-        String c = "aabbccdd";
-        String[]strings = c.split("");
-        Set<String>set = new HashSet<>();
-        set.addAll(Arrays.asList(strings));
-        System.out.println(set);
+
 
 
 
     }
     public static boolean sameLetters(String a, String b){
 
-        String [] str1 = a.split("");
-        Arrays.sort(str1);
-        String[] str2 = b.split("");
-        Arrays.sort(str2);
+       String [] c = a.split("");
+       String [] d = b.split("");
 
-        String c =""; String d ="";
+       String new1="";
+       String new2="";
 
-        for (String each : str1){
-            c+=each;
-        }
-        for (String each : str2){
-            d+=each;
-        }
+       for (String each : c){
+           new1+=each;
+       }
+       for (String each : d){
+           new2+=each;
+       }
 
-        return c.equals(d);
-
+    return new1.equals(new2);
 
     }
 

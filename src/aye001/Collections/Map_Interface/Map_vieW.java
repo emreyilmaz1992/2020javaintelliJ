@@ -29,8 +29,11 @@ public class Map_vieW {
         System.out.println(scoreMap);
 
         // Collection<V> values();
-        Collection<Integer> allScores = scoreMap.values();
+        Collection<Integer> allScores = scoreMap.values(); // we can't use set for iterating the value
         System.out.println(allScores);
+
+
+
 
         // we can't use keySet for value . we  can use Collection
 
@@ -51,6 +54,7 @@ public class Map_vieW {
 
             if(eachEntry.getValue()<90){
                 eachEntry.setValue(95);
+
             }
         }
         System.out.println(scoreMap);

@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.*;
 import java.util.Map.Entry;
 
-public class MyClass extends QA {
+public class MyClass  {
 
     public static void main(String[] args) {
 

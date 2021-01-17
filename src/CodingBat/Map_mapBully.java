@@ -5,7 +5,9 @@ import java.util.Map;
 public class Map_mapBully {
     public static void main(String[] args) {
 
+        String word = "Naber";
 
+        StringBuilder builder = new StringBuilder(word);
 
 
 

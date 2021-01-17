@@ -138,7 +138,7 @@ public class Catalog {
 
     }
 
-    class deneme{
+    class DriveWealth{
         public static void main(String[] args) {
 
             Catalog ctl = new Catalog();
